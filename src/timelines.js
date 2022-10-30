@@ -94,7 +94,7 @@ export default Kapsule({
       }
     },
     width: { default: window.innerWidth },
-    maxHeight: { default: 640 },
+    maxHeight: { default: 840 },
     maxLineHeight: { default: 12 },
     leftMargin: { default: 90 },
     rightMargin: { default: 100 },

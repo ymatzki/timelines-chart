@@ -1,10 +1,10 @@
 function getRandomData(ordinal = false) {
 
-  const NGROUPS = 6,
+  const NGROUPS = 10,
     MAXLINES = 15,
     MAXSEGMENTS = 20,
-    MAXCATEGORIES = 20,
-    MINTIME = new Date(2013,2,21);
+    MAXCATEGORIES = 5,
+    MINTIME = new Date(-4000,2,21);
 
   const nCategories = Math.ceil(Math.random()*MAXCATEGORIES),
     categoryLabels = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
